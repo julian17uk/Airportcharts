@@ -1,0 +1,19 @@
+﻿.container {
+    padding:20px;
+}
+
+a.canvasjs-chart-credit {
+    display: none;
+}
+    
+.row.top{
+    margin-bottom:20px;
+}
+
+//override chart display
+
+div {
+    border: 0px solid rgb(191, 64, 191) !important;
+}
+
+  

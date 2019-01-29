@@ -1,0 +1,125 @@
+﻿
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Airport Passenger Traffic</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <center>
+      <h1>Airport Passenger traffic</h1>
+      <h4>Dataset for top ten busiest airports globally</h4>
+    </center>
+          
+    <div class="container">
+        <div class="row top">
+            <div class="col-md-2">
+                
+            </div>
+            <div class="col-md-10" id="thecustomer">
+            </div>
+        </div>
+
+
+        <div class="row top">
+            <div class="col-md-2">
+                Select Year
+            </div>
+            <div class="col-md-10">
+                <!-- Add your site or application content here -->
+                <select name="source" id="source" value="cases">
+                    <option value="dataset2017" selected>Data for 2017</option>
+                    <option value="dataset2016">Data for 2016</option>
+                    <option value="dataset2015">Data for 2015</option>
+                    
+                </select>
+            </div>
+        </div>
+
+
+
+        <div class="row top">
+            <div class="col-md-2">
+                Select Chart Display
+            </div>
+            <div class="col-md-10">
+                <!-- Add your site or application content here -->
+                <select name="charttype" id="charttype" value="line">
+                    <option value="line">Line</option>
+                    <option value="bar">Bar</option>
+                    <option value="column" selected="">Column</option>
+                    <option value="pie">Pie</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="row top">
+            <div class="col-md-2">
+                Report
+            </div>
+            <div class="col-md-10" id="charttitle">
+            </div>
+        </div>
+
+
+        <div class="row top">
+            <div class="col-md-2">
+                Description
+            </div>
+            <div class="col-md-10" id="chartdescription">
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="chartContainer" class="third">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <!-- End Container -->
+    <!-- END -->
+    <!--
+            <form>
+
+                <p>Enter sales for <span>next month's</span>:</p>
+                <label id="x">Product1</label><input name="product1" id="xval" type="text" required/>
+                <label id="y">Product2</label><input name="product2" id="yval" type="text" required/>
+                <input type="submit" id="ata" value="Add"/>
+            </form>
+
+    -->
+
+
+    <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
